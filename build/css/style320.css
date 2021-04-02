@@ -1,0 +1,67 @@
+@media screen and (max-width: 320px) {
+    body {
+        background-size: auto 515px;
+    }
+    .bg-main {
+        background: none;
+    }
+    .bg-main a {
+        height: 40px;
+    }
+    .heading {
+        display: block;
+        margin: 100px auto 0 40px;
+    }
+    .content {
+        max-width: 280px;
+    }
+    .img480 {
+        display: none;
+    }
+    .bg-about {
+        top: 515px;
+    }
+    .dots {
+        margin-bottom: 100px;
+    }
+    .bg-coments {
+        height: 790px;
+        top: 1110px;
+    }
+    .coments{
+        margin-bottom: 90px;
+    }
+    .bg-logos {
+        top: 1900px;
+        height: 425px;
+    }
+    .logos{
+        height: 425px;
+        padding: 50px 0 70px 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .logos img:first-of-type, .logos img:nth-of-type(2){
+        display: none;
+    }
+    .logos img:nth-of-type(3), .logos img:nth-of-type(4), .logos img:nth-of-type(5){
+        display: block;
+    }
+    .bg-last-block, .news-categories{
+        display: none;
+    }
+    .bg-footer {
+        top: 2325px;
+    }
+    footer nav{
+        display: none;
+    }
+    footer{
+        margin: 0;
+    }
+    footer p{
+        margin: 40px auto 0 auto;
+    }
+}

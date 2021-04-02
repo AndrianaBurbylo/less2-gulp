@@ -1,0 +1,141 @@
+@media screen and (max-width: 768px) {
+    body{
+        background-size: auto 800px;
+    }
+    
+    .bg-main{
+        top: 245px;
+    }
+    .bg-main div{
+        width: 728px;
+    }
+    .bg-main a{
+        width: 20px;
+        height: 38px;
+    }
+    .bg-main a img{
+        width: 100%;
+    }
+    .content{
+        max-width: 728px;
+        margin: 0 auto;
+    }
+    header{
+        margin-bottom: 0px;
+        display: block;
+    }
+    header h1{
+        padding-top: 60px;
+        margin-top: 0px;
+    }
+    header .main-menu {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    
+    .main{
+        margin-bottom: 0px;
+    }
+    .heading{
+        width: 275px;
+        height: 190px;
+        margin-left: 40px;
+        overflow: hidden;
+    }
+    .heading h1{
+        font-size: 48px;
+    }
+    .heading h2{
+        font-size: 24px;
+    }
+    .heading p{
+        font-size: 16px;
+    }
+    .images{
+        height: 480px;
+        margin-bottom: 98px;
+        margin-right: 50px;
+    }
+
+    .bg-about{
+        top: 800px;
+    }
+    .about > div > *{
+        margin-left: 50px;
+    }
+    .about h1{
+        font-size: 24px;
+    }
+
+    .bg-coments{
+        top: 1145px;
+    }
+    .coments .left-block{
+        width: 360px;
+        background:  url(../images/foto.png) no-repeat 0 120px, url(../images/textarea-768.png) no-repeat center;
+    }
+    .coments .text{
+        max-width: 255px;
+        height: 200px;
+    }
+    .coments .right-block{
+        max-width: 340px;
+        overflow: hidden;
+    }
+
+    .bg-logos{
+        top: 1633px;
+    }
+    .bg-last-block{
+        top: 1755px;
+    }
+    .last-block{
+        display: none;
+    }
+    .news-categories{
+        height: 300px;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .news-categories > div{
+        width: 31%;
+        height: 200px;
+        overflow: hidden;
+    }
+    .news-categories h1{
+        font-family: "League Gothic";
+        text-transform: uppercase;
+        font-size: 24px;
+        color: #454545;
+        margin-bottom: 10px;
+    }
+    .news-categories p{
+        font-family: "OpenSans-Light";
+        font-size: 16px;
+        color: #787878;
+        line-height: 22px;
+    }
+
+    .bg-footer{
+        background: url(../images/shadow.png) no-repeat center 0, url(../images/bg-footer-768.jpg) no-repeat center 0;
+        height: 200px;
+        top: 2155px;
+    }
+    footer{
+        background: none;
+        margin-top: 3px;
+        height: 200px;
+        flex-direction: column;
+    }
+    footer nav{
+        max-width: 100%;
+        margin-top: 45px;
+    }
+    footer p{
+        display: block;
+        text-align: right;
+        margin: 0 20px 85px 0;
+    }
+    
+}

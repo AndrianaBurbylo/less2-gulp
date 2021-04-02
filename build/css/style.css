@@ -1,0 +1,476 @@
+@font-face{
+    font-family: "League Gothic";
+    src: url(../fonts/LeagueGothic.otf);
+}
+@font-face{
+    font-family: "OpenSans-Light";
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face{
+    font-family: "OpenSans-ExtraBold";
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face{
+    font-family: "Georgia-Italic";
+    src: url(../fonts/Georgia-Italic.ttf);
+}
+
+body{
+    background: url(../images/background.jpg) no-repeat center 0;
+    background-size: auto 845px;
+    font-family: "OpenSans-Light";
+    position: relative;
+    z-index: -2;
+}
+.bg-main{
+    position: absolute;
+    top: 280px;
+    height: 400px;
+    width: 100%;
+    background: url(../images/overlay.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    z-index: -2;
+}
+.bg-main div{
+    width: 960px;
+}
+.bg-main a{
+    display: block;
+    height: 42px;
+    margin: auto;
+}
+
+.content{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    text-transform: uppercase;
+    font-family: "League Gothic";
+    color: white;
+    display: flex;
+    height: 220px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+header h1{
+    margin-top: 70px;
+    margin-right: 50px;
+    font-size: 48px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+header span{
+    background: -webkit-linear-gradient(#745083, #322539);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header .main-menu{
+    margin-top: 70px;
+    width: 640px;
+}
+header .main-menu ul{
+    padding: 6px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .main-menu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    padding: 7px 5px 3px 5px;
+}
+header .main-menu a:hover{
+    border-bottom: 2px solid #edbfff;
+}
+
+header .dropdown{
+    display: none;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.heading{
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    width: 500px;
+    margin-top: 100px;
+}
+.heading h1{
+    font-size: 60px;
+    font-family: "League Gothic";
+    color: #fefefe;
+}
+.heading h2{
+    font-size: 32px;
+    font-family: "League Gothic";
+    color: #edbfff;
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size: 18px;
+    color: #dedcdf;
+}
+
+.images{
+    width: 265px;
+    height: 530px;
+    margin-right: 70px;
+    position: relative;
+    margin-bottom: 48px;
+}
+.dots{
+    display: none;
+}
+.img480{
+    display: none;
+}
+.images > img:first-child{
+    display: block;
+    position: absolute;
+    margin-left: 70px;
+    z-index: 2;
+}
+.images > img:nth-child(2){
+    display: block;
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+}
+.images>a{
+    display: block;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    z-index: 3;
+}
+.images .menu{
+    position: absolute;
+    width: 83px;
+    bottom: 0;
+    left: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.images .menu a{
+    display: block;
+    width: 17px;
+    height: 17px;
+    background: url(../images/dots.png);
+}
+.images .menu a:nth-child(2){
+    background-position: bottom;
+}
+.images .menu a:hover{
+    background-position: bottom;
+}
+
+.bg-about{
+    width: 100%;
+    height: 345px;
+    position: absolute;
+    top: 845px;
+    background: linear-gradient(#745083, #322539);
+    box-sizing: border-box;
+    border-top: 1px solid #322539;
+    border-bottom: 1px solid black;
+    z-index: -1;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    height: 344px;
+}
+.about > div{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    margin-top: 80px;
+}
+.about > div > *{
+    margin-left: 60px;
+}
+.first-about{
+    background: url(../images/about-1.png) no-repeat;
+    background-position: 5px 10px;
+}
+.second-about{
+    background: url(../images/about-2.png) no-repeat;
+    background-position: 5px 10px;
+}
+.third-about{
+    background: url(../images/about-3.png) no-repeat;
+    background-position: 5px 10px;
+}
+.about .owerflow{
+    height: 120px;
+    overflow: hidden;
+}
+.about h1{
+    font-family: "League Gothic";
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #dedcdf;
+    margin-bottom: 10px;
+    text-shadow: 1px 0px 0px rgb(0,0,0);
+}
+.about p{
+    font-family: "OpenSans-Light";
+    font-size: 16px;
+    line-height: 20px;
+    color: #dedcdf;
+    text-shadow: 1px 0px 0px rgb(0,0,0);
+}
+.about a{
+    font-family: "League Gothic";
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #dedcdf;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-shadow: 1px 0px 0px rgb(0,0,0);
+}
+.about a:hover{
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.8);
+}
+
+.bg-coments, .bg-logos{
+    width: 100%;
+    position: absolute;
+    background: #f9f9f9;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    z-index: -1;
+}
+.bg-coments{
+    height: 488px;
+    top: 1190px;
+    border-top: 1px solid white;
+}
+.bg-logos{
+    height: 122px;
+    top: 1678px;
+}
+
+.coments{
+    display: flex;
+    justify-content: space-between;
+    height: 488px;
+}
+.coments .left-block{
+    width: 470px;
+    background:  url(../images/foto.png) no-repeat 0 120px, url(../images/textarea.png) no-repeat center;
+    position: relative;
+}
+.coments .text{
+    max-width: 350px;
+    height: 205px;
+    overflow: hidden;
+    margin: auto;
+    margin-left: 60px;
+    margin-top: 130px;
+}
+.left-block h1{
+    text-transform: uppercase;
+    font-family: "League Gothic";
+    font-size: 30px;
+    color: #454545;
+    margin-bottom: 10px;
+}
+.left-block span{
+    color: #edbfff;
+}
+.left-block p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "OpenSans-Light";
+    color: #454545;
+}
+.coments .menu{
+    position: absolute;
+    width: 85px;
+    bottom: 73px;
+    left: 192px;
+    display: flex;
+    justify-content: space-between;
+}
+.coments .menu a{
+    display: block;
+    width: 19px;
+    height: 20px;
+    background: url(../images/dots-2.png);
+}
+.coments .menu a:nth-child(2){
+    background-position: bottom;
+}
+.coments .menu a:hover{
+    background-position: bottom;
+}
+.coments .right-block{
+    max-width: 450px;
+    height: 270px;
+    margin: auto 0;
+    background: url(../images/circle-fon.png) no-repeat 0 45px;
+    font-size: 16px;
+    color: #454545;
+}
+.right-block div{
+    height: 50px;
+    overflow: hidden;
+    margin: 15px 0 15px 60px;
+}
+.right-block h1{
+    text-transform: uppercase;
+    margin-left: 60px;
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 30px;
+}
+
+.right-block h2{
+    font-family: "OpenSans-ExtraBold";
+}
+.right-block p{
+    font-family: "OpenSans-Light";
+    margin-top: 3px;
+}
+.right-block a{
+    float: right;
+    text-decoration: none;
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    margin-right: 10px;
+}
+.right-block a:hover{
+    text-shadow: 0px 0px 2px rgba(45, 45, 45, 0.8);
+}
+
+.logos{
+    height: 100px;
+}
+.logos img{
+    display: block;
+    margin: auto;
+    margin-top: 22px;
+    max-width: 100%;
+}
+.logos img:nth-of-type(2), .logos img:nth-of-type(3), .logos img:nth-of-type(4), .logos img:nth-of-type(5){
+    display: none;
+}
+
+.bg-last-block{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 1800px;
+    background: #ececec;
+    z-index: -1;
+}
+
+.last-block{
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-block > div{
+    width: 31%;
+    height: 200px;
+    overflow: hidden;
+}
+.last-block h1{
+    font-family: "League Gothic";
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #454545;
+    text-shadow: 1px 0 0 white;
+    margin-bottom: 15px;
+}
+.last-block span{
+    color: #b9b9b9;
+}
+.last-block h3{
+    font-family: "Georgia-Italic";
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 10px;
+}
+.last-block p{
+    font-family: "OpenSans-Light";
+    font-size: 16px;
+    color: #787878;
+    line-height: 22px;
+}
+.last-block h2{
+    font-family: "League Gothic";
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #454545;
+    margin-bottom: 10px;
+}
+.news-categories{
+    display: none;
+}
+
+.bg-footer{
+    position: absolute;
+    top: 2200px;
+    width: 100%;
+    height: 115px;
+    background: url(../images/bg-footer.jpg) no-repeat center 0;
+    background-size: auto 115px;
+    z-index: -1;
+}
+footer{
+    height: 115px;
+    background: url(../images/shadow.png) no-repeat center 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer nav{
+    text-transform: uppercase;
+    font-family: "League Gothic";
+    width: 530px;
+    margin-top: 38px;
+}
+footer ul{
+    padding: 6px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    padding: 7px 5px 3px 5px;
+}
+footer a:hover{
+    border-bottom: 2px solid #edbfff;
+}
+footer p{
+    font-size: 12px;
+    font-family: "OpenSans-Light";
+    color: white;
+    text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.4);
+    margin-top: 55px;
+}
+footer span{
+    font-family: "OpenSans-ExtraBold";
+}

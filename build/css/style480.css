@@ -1,0 +1,221 @@
+@media screen and (max-width: 480px){
+    body{
+        background-size: auto 550px;
+    }
+    .bg-main{
+        top: 200px;
+        height: 245px;
+    }
+    .bg-main div{
+        width: 440px;
+    }
+    .bg-main a{
+        height: 34px;
+    }
+    .content{
+        max-width: 440px;
+        margin: 0 auto;
+    }
+    header{
+        height: 190px;
+    }
+    header h1{
+        padding-top: 70px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    header .main-menu{
+        display: none;
+    }
+    header .dropdown{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        font-size: 24px;
+        width: 250px;
+        height: 265px;
+        z-index: 2;
+    }
+    .dropdown .second-level{
+        display: none;
+    }
+    .dropdown a{
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        width: 50px;
+        margin: 0 auto;
+        padding: 5px;
+        box-sizing: border-box;
+        color: white;
+        border-bottom: 2px solid #edbfff;
+    }
+    .mainmenubtn{
+        padding: 10px 0;
+    }
+    .mainmenubtn > li > a{ 
+        margin-bottom: 5px;
+    }
+    .dropdown:hover .mainmenubtn > li > a{
+        text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+    }
+    .mainmenubtn > li:hover ul{
+        display: block;
+    }
+    .mainmenubtn > li:hover{
+        background: rgba(54, 41, 62, 0.9);
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    .dropdown .second-level{
+        height: 215px;
+    }
+    .dropdown .second-level li{
+        height: 20%;
+    }
+    .dropdown .second-level > li > a{
+        width: 100%;
+        border-bottom: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.5);
+    }
+    .dropdown .second-level > li > a:hover{
+        background: rgba(0, 0, 0, 0.4);
+        border-bottom: 2px solid #edbfff;
+        height: 100%;
+    }
+    
+    
+    
+
+    .main{
+        display: block;
+    }
+    .heading{
+        float: left;
+        width: 210px;
+        height: 55px;
+        margin-left: 20px;
+    }
+    .heading h1{
+        font-size: 36px;
+    }
+    .heading h2{
+        font-size: 18px;
+    }
+    .images{
+        display: none;
+    }
+    .img480{
+        position: absolute;
+        display: block;
+        right: 20px;
+        height: 300px;
+        width: 190px;
+        background: url(../images/iphone-480.png) no-repeat;
+        z-index: -1;
+    }
+    .dots{
+        display: block;
+        margin: 0 auto;
+        height: 300px;
+        margin-bottom: 140px;
+    } 
+
+    .bg-about{
+        top: 550px;
+        height: 600px;
+    }
+    .about{
+        margin-top: 140px;
+        height: 450px;
+        max-width: 440px;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-bottom: 140px;
+    }
+    .about div{
+        width: auto;
+        height: 140px;
+        margin-top: 0;
+    }
+    .about .owerflow{
+        height: 70px;
+        overflow: hidden;
+    }
+    .about a{
+        margin-right: 10px;
+    }
+
+    .bg-coments{
+        height: 790px;
+    }
+    .coments{
+        height: 630px;
+        flex-direction: column;
+        margin-bottom: 130px;
+    }
+    .coments .left-block{
+        width: auto;
+        height: 315px;
+        background:  url(../images/foto.png) no-repeat 0 20px, url(../images/textarea-480.png) no-repeat center 0;
+    }
+    .coments .text{
+        max-width: 370px;
+        height: 210px;
+        margin-top: 30px;
+        padding-right: 30px;
+    }
+    .coments .menu{
+        position: absolute;
+        bottom: 0;
+        left: 45%;
+    }
+    .coments .right-block{
+        height: 265px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .coments .right-block p{
+        display: block;
+        overflow: hidden;
+    }
+
+    .bg-logos{
+        top: 1935px;
+        height: 235px;
+    }
+    .logos{
+        height: 190px;
+    }
+    .logos img:first-of-type, .logos img:nth-of-type(3), .logos img:nth-of-type(4), .logos img:nth-of-type(5){
+        display: none;
+    }
+    .logos img:nth-of-type(2){
+        display: block;
+    }
+
+    .bg-last-block{
+        top: 2170px;
+        height: 670px;
+    }
+    .bg-footer{
+        top: 2840px;
+    }
+
+    .news-categories{
+        height: 500px;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-bottom: 90px;
+    }
+    .news-categories > div{
+        width: 100%;
+        height: 130px;
+    }
+
+    footer p{
+        margin-bottom: 85px;
+        text-align: center;
+    }
+} 
